@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Server Administrator Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f3f4f6;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #00bcd4, #3f51b5);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #3f51b5;
+      border-bottom: 2px solid #00bcd4;
+      padding-bottom: 10px;
+    }
+
+    .about {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .about img {
+      width: 200px;
+      border-radius: 50%;
+      border: 5px solid #00bcd4;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+    }
+
+    .skill {
+      background-color: #ffffff;
+      padding: 20px;
+      border-left: 5px solid #3f51b5;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .projects .project {
+      background-color: #fff;
+      padding: 20px;
+      margin: 15px 0;
+      border-left: 5px solid #00bcd4;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .contact {
+      background-color: #3f51b5;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .contact a {
+      color: #00e5ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .about {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SOURAV.TK</h1>
+  <p>Server Administrator | Linux Expert | Cloud Architect | Networking Engineer</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <div class="about">
+    <img src="file:///C:/Users/pc/Desktop/web%20host/WhatsApp%20Image%202025-08-29%20at%209.53.14%20AM.jpeg">
+    <p>Iam SOURAV.TK, a passionate Server Administrator with 5+ years of experience managing Linux servers, deploying web services, and maintaining cloud infrastructure. I enjoy automating tasks with Bash and Ansible and ensuring system security and uptime.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill"><strong>Linux (Ubuntu, CentOS)</strong></div>
+    <div class="skill"><strong>Networking & Firewalls</strong></div>
+    <div class="skill"><strong>Cloud: AWS, Azure</strong></div>
+    <div class="skill"><strong>Docker & Kubernetes</strong></div>
+    <div class="skill"><strong>Bash & PowerShell</strong></div>
+    <div class="skill"><strong>Windows Server</strong></div>
+    <div class="skill"><strong>VMWARE</strong></div>
+  </div>
+</section>
+
+<section class="projects">
+  <h2>Projects & Experience</h2>
+  <div class="project">
+    <h3>Enterprise Server Migration</h3>
+    <p>Migrated 50+ legacy servers to modern Ubuntu 22.04 systems with zero downtime. Automated using Ansible and scheduled backups with Rsync & Cron.</p>
+  </div>
+  <div class="project">
+    <h3>High Availability Web Hosting</h3>
+    <p>Deployed load-balanced Apache and NGINX clusters on AWS with auto-scaling, integrated CloudWatch monitoring and Route53 DNS management.</p>
+  </div>
+  <div class="project">
+    <h3>Security Audit & Hardening</h3>
+    <p>Performed OS security audits using Lynis and CIS Benchmarks. Hardened SSH, firewalls (UFW & iptables), and implemented 2FA for root access.</p>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Contact Me</h2>
+  <p>Email: <a href="mailto:admin@example.com">souravmsn@gmail.com</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/serveradmin" target="_blank">linkedin.com/in/serveradmin</a></p>
+</section>
+
+<footer>
+  &copy; 2025 SOURAV.TK – Server Administrator Portfolio
+</footer>
+
+</body>
+</html>
